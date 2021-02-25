@@ -129,7 +129,7 @@ from{
   height:40px;
   margin: 20px;
   border-radius: 20px;
-  background-color: rgb(167, 166, 168);
+  background-color: coral;
   animation:bubble 7s linear infinite;
 }
 
