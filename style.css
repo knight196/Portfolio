@@ -187,7 +187,24 @@ from{
 }
 .open{
   display: flex;
-  justify-content: flex-end;
+  padding:10px;
+  justify-content: space-between;
+}
+.fa-sun{
+font-size: 20px;
+}
+.darkoption{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  cursor:pointer;
+}
+.moon{
+  display:none;
+}
+
+.darkmode{
+  background:rgb(69, 68, 68);
 }
 .twoprojects{
   text-align: center;
