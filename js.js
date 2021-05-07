@@ -8,26 +8,18 @@ function openNav() {
        document.querySelector('.open').style.display="flex";
   }
 
- var sun = document.querySelector('.fa-sun');
+ var sun = document.querySelector('.sun');
 
-  var moon = document.querySelector('.moon');
+sun.addEventListener('click', () => {
+document.body.classList.toggle('darkmode');
+document.body.style.transition="all 1s";
+if(document.body.classList.contains('darkmode')){
+    sun.src="images/nightday.jpg";
+}else{
+    sun.src="images/sunnyday.jpg";
+}
+});
 
-  sun.addEventListener('click', () => {
-    document.body.classList.toggle('darkmode');
-    document.body.style.transition="all 1s";
-    moon.style.display="inline-flex";
-    sun.style.display="none";
-    document.querySelector('.aboutme').style.backgroundColor="rgb(69, 68, 68)";
-    });
-    
-    moon.addEventListener('click', () => {
-      document.body.classList.toggle('darkmode');
-      document.body.style.transition="all 1s";
-      sun.style.display="inline-flex";
-      moon.style.display="none";
-      document.querySelector('.aboutme').style.backgroundColor="darkcyan";
-      });
-      
 
   var myVar;
 
