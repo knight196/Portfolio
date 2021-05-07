@@ -4,7 +4,6 @@ function openNav() {
   
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
-       document.querySelector('.open').style.display="flex";
   }
 
 
