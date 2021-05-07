@@ -188,7 +188,7 @@ from{
 .open{
   display: flex;
   padding:10px;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 .fa-sun{
 font-size: 20px;
