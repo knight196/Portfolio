@@ -193,17 +193,11 @@ from{
 }
 .fa-sun{
 font-size: 20px;
-}
-.darkoption{
-  display:flex;
-  align-items: center;
-  justify-content: center;
   cursor:pointer;
 }
-.moon{
-  display:none;
+.fa-envelope{
+  color:white;
 }
-
 .darkmode{
   background:rgb(69, 68, 68);
 }
