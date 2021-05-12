@@ -437,3 +437,8 @@ justify-content:flex-end;
     animation: typing 8s steps(40,end), blink-caret 3.5s;
   }
 }
+.icon{
+  position: absolute;
+  top:20px;
+  left:10px;
+}
