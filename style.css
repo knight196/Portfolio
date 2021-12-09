@@ -363,6 +363,9 @@ justify-content:flex-end;
   .open{
     display: none;
   }
+  .intro h1{
+    font-size:30px;
+  }
   nav{
 display: flex;
 justify-content:flex-end;
