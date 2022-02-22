@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="js.js" defer></script>
+</head>
+
+<body>
+
+  <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="theme text-dark"><i class="bi bi-sun"></i></div>
+        <button onclick="myFunction(this)" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+        <div class="collapse text-center navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="otherdemos.html">Other Demos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- end of navbar -->
+
+  <!-- Projects -->
+
+  <div class="projects text-center">
+
+    <h1>Front-End-Mentor Projects</h1>
+
+<p>I took these challenges from a front-end mentor to test my skill. Therefore, all the image that I have used in this project belongs to them. If you want to know more about this website, 
+            then you can click on this link <a class="text-dark" href="https://www.frontendmentor.io/">Front-End-Mentor.</a>
+        </p>
+
+        <div class="grid-container">
+            
+        </div>
+
+        </div>
+
+
+
+  <!--End of Projects-->
+
+
+  <!-- end of projects -->
+
+  <hr>
+
+  <!-- footer -->
+
+<div class="footer text-center">
+  <h6>Contact Me</h6>
+  <a class="text-white mx-1" href="https://www.linkedin.com/in/bijay-b-05134514a"><i class="bi bi-linkedin"></i></a>
+  <a class="text-white mx-1" href="mailto:bijaybaral55@gmail.com"><i class="bi bi-envelope"></i></a>
+</div>
+
+  <!-- end of footer -->
+
+  <script>
+    //front end mentor page 
+
+const api ="data.json";
+
+var container1 = document.querySelector('.grid-container');
+
+function display(url){
+
+fetch(url).then(res => res.json()).then(data => {
+    container1.innerHTML = "";
+
+    if(data.Portfolio){
+        data.Portfolio.forEach(item => {
+
+        var card = `
+
+        <div class="p-2">
+
+        <h1>${item.title}</h1>
+        <img src="${item.images}"/>
+
+        <a href="https://${item.viewpage}">ViewPage</a>
+
+        </div>
+       
+        `
+        
+        container1.innerHTML += card;
+        })
+        }
+        })
+        }
+       display(api)
+
+
+  </script>
+
+  </body>
+  </html>
+
