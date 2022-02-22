@@ -1,0 +1,256 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: darkcyan;
+  scroll-behavior: smooth;
+  color: #ffff;
+}
+
+.darkmode {
+  background: #454444;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.nav-link.active, .nav-pills .show > .nav-link {
+  color: black !important;
+  background-color: #fff !important;
+}
+
+#particles-js {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  position: relative;
+  z-index: -1;
+}
+
+#particles-js .intro {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#particles-js .intro h1 {
+  overflow: hidden;
+  position: relative;
+  text-shadow: 0 3px 0px grey, 0px 4px 0px grey, 0px 5px 0px grey, 0px 6px 0px grey, 0px 7px 0px grey, 0px 7px 0px grey, 0px 8px 0px grey, 0px 9px 0px grey, 0px 10px 0px grey;
+}
+
+#particles-js .intro h1::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  width: 100%;
+  background: darkcyan;
+  color: orange;
+  -webkit-animation: typing 2s steps(16) forwards, caret 1s infinite;
+          animation: typing 2s steps(16) forwards, caret 1s infinite;
+}
+
+@-webkit-keyframes typing {
+  to {
+    width: 0;
+  }
+}
+
+@keyframes typing {
+  to {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes caret {
+  50% {
+    color: transparent;
+  }
+}
+
+@keyframes caret {
+  50% {
+    color: transparent;
+  }
+}
+
+.container img {
+  width: 100%;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container h1 {
+  border: none;
+  font-size: 20px;
+  color: black;
+}
+
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.grid-container div img {
+  width: 100%;
+  height: 300px;
+}
+
+.grid-container div a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  border-bottom: 3px solid black;
+}
+
+.grid-container2 img {
+  width: 100%;
+  height: 300px;
+}
+
+.grid-container2 .card {
+  margin: 10px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.projects-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects-flex .card {
+  margin-top: 10px;
+}
+
+@media (min-width: 720px) {
+  .projects-flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .projects-flex .card {
+    margin-right: 10px;
+    width: 500px;
+  }
+}
+
+@media (min-width: 1020px) {
+  .navbar-nav {
+    text-align: right;
+  }
+  .grid-container {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+  }
+  .grid-container img {
+    height: 200px !important;
+  }
+  .grid-container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .grid-container2 img {
+    width: 500px;
+  }
+  .projects-flex {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .projects-flex .card {
+    height: 300px;
+    width: 500px;
+  }
+  .projects-flex .card img {
+    height: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .grid-container {
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+  }
+}
+/*# sourceMappingURL=style.css.map */
