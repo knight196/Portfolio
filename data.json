@@ -28,6 +28,11 @@
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
     },
+                   {
+        "title":"Advice Generator",
+        "images":"./images/advice-generator.PNG",
+        "viewpage":"knight196.github.io/AdviceGenerator/"
+    },
     {
         "title":"Clipboard",
         "images":"./images/Clipboard.PNG",
