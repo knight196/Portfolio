@@ -18,15 +18,15 @@
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
     },
+                                             {
+        "title":"Grid-Testimonial",
+        "images":"./images/grid-testimonial.png",
+        "viewpage":"knight196.github.io/grid-testimonial/"
+    },
                    {
         "title":"Advice Generator",
         "images":"./images/advice-generator.png",
         "viewpage":"knight196.github.io/AdviceGenerator/"
-    },
-                              {
-        "title":"Grid-Testimonial",
-        "images":"./images/grid-testimonial.png",
-        "viewpage":"knight196.github.io/grid-testimonial/"
     },
     {
         "title":"Clipboard",
