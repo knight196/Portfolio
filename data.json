@@ -14,16 +14,6 @@
         "viewpage":"knight196.github.io/testimonialslider/"
     },
     {
-        "title":"Ping Signal",
-        "images":"./images/PingSignal.PNG",
-        "viewpage":"knight196.github.io/pingsingle/"
-    },
-    {
-        "title":"Faqs Accordion",
-        "images":"./images/Faqs.PNG",
-        "viewpage":"knight196.github.io/faqsaccordion/"
-    },
-    {
         "title":"Pricing Table",
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
@@ -37,11 +27,6 @@
         "title":"Clipboard",
         "images":"./images/Clipboard.PNG",
         "viewpage":"knight196.github.io/clipboard/"
-    },
-    {
-        "title":"Project Tracking",
-        "images":"./images/Project.PNG",
-        "viewpage":"knight196.github.io/projct-tracking/"
     },
     {
         "title":"Huddle Curve",
@@ -82,11 +67,6 @@
         "title":"Insure Landing",
         "images":"./images/insure.PNG",
         "viewpage":"knight196.github.io/Insurelanding/"
-    },
-    {
-        "title":"Social Board",
-        "images":"./images/Social Board.PNG",
-        "viewpage":"knight196.github.io/Socialboard/"
     },
     {
         "title":"Fylo Dark Theme",
