@@ -46,7 +46,7 @@ body {
   background-color: #fff !important;
 }
 
-#particles-js {
+.intro-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,14 @@ body {
   z-index: -1;
 }
 
-#particles-js .intro {
+.intro-section #particles-js {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.intro-section .intro {
   position: absolute;
   z-index: 1;
   width: 100%;
@@ -73,13 +80,13 @@ body {
           justify-content: center;
 }
 
-#particles-js .intro h1 {
+.intro-section .intro h1 {
   overflow: hidden;
   position: relative;
   text-shadow: 0 3px 0px grey, 0px 4px 0px grey, 0px 5px 0px grey, 0px 6px 0px grey, 0px 7px 0px grey, 0px 7px 0px grey, 0px 8px 0px grey, 0px 9px 0px grey, 0px 10px 0px grey;
 }
 
-#particles-js .intro h1::after {
+.intro-section .intro h1::after {
   content: "|";
   position: absolute;
   right: 0;
@@ -162,7 +169,7 @@ body {
 
 .grid-container2 img {
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 
 .grid-container2 .card {
@@ -213,6 +220,18 @@ body {
   .grid-container img {
     height: 300px !important;
   }
+  .grid-container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .grid-container2 img {
+    width: 300px;
+    height: 200px;
+  }
 }
 
 @media (min-width: 1020px) {
@@ -259,6 +278,9 @@ body {
   .grid-container {
     -ms-grid-columns: auto auto auto auto;
         grid-template-columns: auto auto auto auto;
+  }
+  .grid-container2 img {
+    height: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
