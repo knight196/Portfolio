@@ -139,7 +139,7 @@
 "ReactDemos":[
     {
         "title":"React-Anime-App",
-        "images":"./images/react-anime.PNG",
+        "images":"./images/react-anime.png",
         "viewpage":"react-newmovie-app.netlify.com"  
     }
 ]
