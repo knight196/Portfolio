@@ -15,7 +15,7 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
-  <script src="js.js" defer></script>
+ 
 </head>
 
 <body>
@@ -51,9 +51,19 @@
 
   <h1 class="text-center">Other Demos</h1>
 
-  <div class="grid-container2">
+  <div class="text-center">
+    <div class="toggle-btn">
+      <span style="font-weight:bold;">JS</span>
+      <label class="switch">
+        <input type="checkbox" id="checkbox" onclick="check()"/>
+        <span class="slider round"></span>
+      </label> 
+      <span style="font-weight:bold;">React</span>
+    </div>
+   </div>
 
-  </div>
+  <div class="grid-container2"></div>
+  <div class="react-container mt-2"></div>
 
 </div>
 
@@ -73,6 +83,11 @@
   <!-- end of footer -->
 
   <script>
+function myFunction(x) {
+  x.classList.toggle("change");
+} 
+
+
           //other demos
 
     const api2 = 'data.json';
@@ -97,6 +112,7 @@ if(data.demos){
 
  </div>
 
+
  `
  
  container2.innerHTML += card;
@@ -105,6 +121,74 @@ if(data.demos){
  })
  }
 display(api2)
+
+var reactcontainer = document.querySelector('.react-container');
+
+function displayReact(url){
+
+fetch(url).then(res => res.json()).then(data => {
+reactcontainer.innerHTML = "";
+
+if(data.ReactDemos){
+ data.ReactDemos.forEach(item => {
+
+ var card = `
+
+ <div class="p-2 text-center card">
+
+   <h4 class="text-dark">${item.title}</h4>
+   <img src="${item.images}">
+   <a class="text-dark h5" href="https://${item.viewpage}">Viewpage</a>
+
+ </div>
+
+
+ `
+ 
+ reactcontainer.innerHTML += card;
+ })
+ }
+ })
+ }
+displayReact(api2)
+
+function check()
+{
+    var checkbox = document.getElementById("checkbox");
+    var JS = document.querySelector(".grid-container2");
+    var React = document.querySelector(".react-container");
+
+        if (checkbox.checked == true)
+        {
+            React.style.display = "block";
+            JS.style.display = "none";
+        }
+        else if (checkbox.checked == false)
+        {
+            React.style.display = "none";
+            JS.style.display = "flex";
+        }
+
+}   
+//Pricing change check
+check(); 
+
+var sun = document.querySelector('.theme');
+
+sun.addEventListener('click', () => {
+document.body.classList.toggle('darkmode');
+document.body.style.transition="all 1s";
+if(document.body.classList.contains('darkmode')){
+  sun.innerHTML = "<i class='bi bi-moon'></i>";
+  document.querySelector('.about-me').style.background="rgb(69, 68, 68);"
+}else{
+  sun.innerHTML = "<i class='bi bi-sun'></i>";
+  document.querySelector('.about-me').style.background="darkcyan";
+}
+});
+
+
+
   </script>
 
 
