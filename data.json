@@ -141,6 +141,11 @@
         "title":"React-Anime-App",
         "images":"./images/react-anime.png",
         "viewpage":"react-newmovie-app.netlify.com"  
+    },
+ {
+        "title":"React-e-commerce-shop",
+        "images":"./images/react-e-commerce.png",
+        "viewpage":"react-e-commerceshop-app.netlify.com"  
     }
 ]
 
