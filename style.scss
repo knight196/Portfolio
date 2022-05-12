@@ -281,7 +281,7 @@ $text-length: 16;
             height:300px !important;
           }
         }
-        .grid-container2{
+        .grid-container2,.react-container{
          display:flex;
          justify-content: center;
           img{
@@ -302,8 +302,9 @@ $text-length: 16;
            height:200px !important;
          }
        }
-       .grid-container2{
-         display:flex;
+       .grid-container2,.react-container{
+         display:grid;
+         grid-template-columns: auto auto;
          justify-content: center;
          img{
            width:500px;

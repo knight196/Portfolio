@@ -294,7 +294,7 @@ input:checked + .slider::before {
   .grid-container img {
     height: 300px !important;
   }
-  .grid-container2 {
+  .grid-container2, .react-container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -302,7 +302,7 @@ input:checked + .slider::before {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .grid-container2 img {
+  .grid-container2 img, .react-container img {
     width: 300px;
     height: 200px;
   }
@@ -319,15 +319,16 @@ input:checked + .slider::before {
   .grid-container img {
     height: 200px !important;
   }
-  .grid-container2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  .grid-container2, .react-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .grid-container2 img {
+  .grid-container2 img, .react-container img {
     width: 500px;
   }
   .projects-flex {
