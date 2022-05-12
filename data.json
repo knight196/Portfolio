@@ -18,6 +18,12 @@
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
     },
+      {
+        "title":"Intro section with dropdown navigation",
+        "images":"./images/snap.PNG",
+        "viewpage":"knight196.github.io/snap/"
+    },           
+                 
                                              {
         "title":"Grid-Testimonial",
         "images":"./images/grid-testimonial.png",
