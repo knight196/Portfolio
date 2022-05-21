@@ -25,7 +25,7 @@
     },       
                    {
         "title":"Expenses Chart",
-        "images":"./images/expenses.PNG",
+        "images":"./images/expenses.png",
         "viewpage":"https://react-expenses-chart.netlify.app/"
     },           
                 
