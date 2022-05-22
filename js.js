@@ -2,6 +2,18 @@ function myFunction(x) {
   x.classList.toggle("change");
 } 
 
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
 var sun = document.querySelector('.theme');
 
 sun.addEventListener('click', () => {
