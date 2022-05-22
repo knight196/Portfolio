@@ -20,8 +20,14 @@
   <script src="js.js" defer></script>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
 
+  <div id="loading">
+    <div id="loader"></div>
+    <p>Loading</p>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
   <!-- navbar -->
     <nav class="navbar navbar-scroll fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -83,9 +89,7 @@
         as a calm-minded, patience, enthusiastic, detail-oriented and good-natured person.
       </p>
 
-      <p>
-        Skills: HTML, CSS, JS, SASS, React and Bootstrap.
-      </p>
+      <h5>Skills</h5>
 
     </div>
 
@@ -133,6 +137,8 @@
 </div>
 
   <!-- end of footer -->
+
+</div>
 
   <script>
 

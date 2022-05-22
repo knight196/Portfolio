@@ -18,8 +18,14 @@
   <script src="js.js" defer></script>
 </head>
 
-<body>
+<body onload="myFunction()" style="margin:0;">
 
+  <div id="loading">
+    <div id="loader"></div>
+    <p>Loading</p>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
   <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
@@ -80,6 +86,7 @@
 
   <!-- end of footer -->
 
+  </div>
   <script>
     //front end mentor page 
 

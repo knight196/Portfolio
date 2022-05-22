@@ -18,7 +18,14 @@
  
 </head>
 
-<body>
+<body onload="myFunction2()" style="margin:0;">
+
+  <div id="loading">
+    <div id="loader"></div>
+    <p>Loading</p>
+  </div>
+
+  <div style="display:none;" id="myDiv" class="animate-bottom">
 
   <!-- navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
@@ -81,6 +88,8 @@
 </div>
 
   <!-- end of footer -->
+
+  </div>
 
   <script>
 function myFunction(x) {
@@ -187,6 +196,18 @@ if(document.body.classList.contains('darkmode')){
 }
 });
 
+
+var myVar;
+
+function myFunction2() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("loading").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
 
 
   </script>
