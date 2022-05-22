@@ -4,7 +4,7 @@ function myFunction(x) {
 
 var myVar;
 
-function myFunction() {
+function myFunction2() {
   myVar = setTimeout(showPage, 3000);
 }
 
