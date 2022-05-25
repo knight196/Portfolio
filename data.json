@@ -28,7 +28,13 @@
         "images":"./images/expenses.png",
         "viewpage":"react-expenses-chart.netlify.app/"
     },           
-                
+                 {
+                  
+                  "title":"Jobs-Filtering",
+                  "images":"./images/job-filtering.png",
+                  "viewpage":"react-job-filtering-site.netlify.app/"     
+             
+                 },
                  
                                              {
         "title":"Grid-Testimonial",
