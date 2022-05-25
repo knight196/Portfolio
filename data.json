@@ -18,18 +18,6 @@
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
     },
-      {
-        "title":"Intro section with dropdown navigation",
-        "images":"./images/snap.png",
-        "viewpage":"knight196.github.io/snap/"
-    },       
-                   {
-        "title":"Expenses Chart",
-        "images":"./images/expenses.png",
-        "viewpage":"react-expenses-chart.netlify.app/"
-    },           
-
-                 
                                              {
         "title":"Grid-Testimonial",
         "images":"./images/grid-testimonial.png",
@@ -129,7 +117,13 @@
         "title":"Space",
         "images":"./images/space.PNG",
         "viewpage":"knight196.github.io/space/"
+    },
+    {
+        "title":"Job-Filtering",
+        "images":"./images/job-filtering.png",
+        "viewpage":"react-job-filtering-site.netlify.app"
     }
+
    ],
 
 "demos":[
