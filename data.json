@@ -28,13 +28,7 @@
         "images":"./images/expenses.png",
         "viewpage":"react-expenses-chart.netlify.app/"
     },           
-                 {
-                  
-                  "title":"Jobs-Filtering",
-                  "images":"./images/job-filtering.png",
-                  "viewpage":"react-job-filtering-site.netlify.app/"     
-             
-                 },
+
                  
                                              {
         "title":"Grid-Testimonial",
@@ -135,7 +129,14 @@
         "title":"Space",
         "images":"./images/space.PNG",
         "viewpage":"knight196.github.io/space/"
-    }
+    },
+                 {
+                  
+                  "title":"Jobs-Filtering",
+                  "images":"./images/job-filtering.png",
+                  "viewpage":"react-job-filtering-site.netlify.app/"     
+             
+                 },
 
    ],
 
