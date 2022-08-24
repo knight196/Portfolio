@@ -118,12 +118,7 @@
         "images":"./images/space.PNG",
         "viewpage":"knight196.github.io/space/"
     },
-    {
-        "title":"Job-Filtering",
-        "images":"./images/job-filtering.png",
-        "viewpage":"react-job-filtering-site.netlify.app"
-    }
-
+ 
    ],
 
 "demos":[
