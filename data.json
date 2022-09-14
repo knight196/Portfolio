@@ -141,11 +141,6 @@
         "title":"React-Movie",
         "images":"./images/react-movie.png",
         "viewpage":"react-newmovie-app.netlify.com"  
-    },
- {
-        "title":"React-e-commerce-shop",
-        "images":"./images/react-e-commerce.png",
-        "viewpage":"react-e-commerceshop.netlify.app"  
     }
 ]
 
