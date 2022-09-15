@@ -1,5 +1,4 @@
-{
-"Portfolio":  [ {
+ {"Portfolio":  [ {
         "title":"Four Card",
         "images":"./images/Fourcard.PNG",
         "viewpage":"knight196.github.io/fourcard/"
@@ -118,9 +117,14 @@
         "title":"Space",
         "images":"./images/space.PNG",
         "viewpage":"knight196.github.io/space/"
+    },
+    {
+        "title":"Job-Filtering",
+        "images":"./images/job-filtering.png",
+        "viewpage":"react-job-filtering-site.netlify.app"
     }
- 
-   ]
+
+   ],
 
 "demos":[
     {
@@ -143,13 +147,11 @@
         "images":"./images/react-movie.png",
         "viewpage":"react-newmovie-app.netlify.com"  
     },
-        {
-            "title":"React-E-commerce",
+ {
+        "title":"React-e-commerce-shop",
         "images":"./images/react-e-commerce.png",
-        "viewpage":"react-e-commerceshop.netlify.app"       
-        }
-
+        "viewpage":"react-e-commerceshop.netlify.app"  
+    }
 ]
 
  }
-
