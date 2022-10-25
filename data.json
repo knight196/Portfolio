@@ -151,7 +151,12 @@
         "title":"React-e-commerce-shop",
         "images":"./images/react-e-commerce.png",
         "viewpage":"shop-clone-react.herokuapp.com"  
-    }
+    },
+ {
+ "title":"Aquarium-shop-clone",
+        "images":"./images/aquarium-clone-shop.PNG",
+        "viewpage":"https://aquarium-shop-clone.herokuapp.com/"  
+ }
 ]
 
  }
