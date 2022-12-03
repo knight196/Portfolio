@@ -145,7 +145,7 @@
     {
         "title":"Movie",
         "images":"./images/react-movie.png",
-        "viewpage":"movie-clone-website.herokuapp.com/"  
+        "viewpage":"movie-app-dglm.onrender.com/"  
     },
  {
   "title":"PhoneShop",
@@ -155,7 +155,7 @@
  {
  "title":"Aquarium-shop-clone",
         "images":"./images/aquarium-clone-shop.png",
-        "viewpage":"aquarium-shop-clone.herokuapp.com/"  
+        "viewpage":"aquarium-shop.onrender.com"  
  }
 ]
 
