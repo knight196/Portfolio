@@ -147,11 +147,7 @@
         "images":"./images/react-movie.png",
         "viewpage":"movie-app-dglm.onrender.com/"  
     },
- {
-  "title":"PhoneShop",
-        "images":"./images/react-e-commerce.png",
-"viewpage":"shop-clone-react.herokuapp.com/"
- },
+
  {
  "title":"Aquarium-shop-clone",
         "images":"./images/aquarium-clone-shop.png",
