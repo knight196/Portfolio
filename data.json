@@ -143,10 +143,15 @@
 
 "ReactDemos":[
     {
-        "title":"React-Movie",
+        "title":"Movie",
         "images":"./images/react-movie.png",
         "viewpage":"movie-clone-website.herokuapp.com/"  
     },
+ {
+  "title":"PhoneShop",
+        "images":"./images/react-movie.png",
+"viewpage":shop-clone-react.herokuapp.com/
+ },
  {
  "title":"Aquarium-shop-clone",
         "images":"./images/aquarium-clone-shop.png",
