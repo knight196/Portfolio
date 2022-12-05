@@ -147,6 +147,12 @@
         "images":"./images/react-movie.png",
         "viewpage":"movie-app-dglm.onrender.com/"  
     },
+ 
+ {
+  "title": "PhoneShop",
+  "images":"./images/react-e-commerce.png",
+  "viewpage":"shop-clone.onrender.com/"
+ },
 
  {
  "title":"Aquarium-shop-clone",
