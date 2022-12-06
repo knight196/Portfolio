@@ -126,21 +126,6 @@
 
    ],
 
-"demos":[
-    {
-        "title":"E-commerce",
-        "images":"./images/phoneshop.jpg",
-        "viewpage":"knight196.github.io/e-commerce"
-},
-{
-    "title":"Anime",
-    "images":"./images/anime.PNG",
-    "viewpage":"knight196.github.io/animelist/"
-
-}
-
-],
-
 "ReactDemos":[
     {
         "title":"Movie",
