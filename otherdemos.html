@@ -57,10 +57,8 @@
 <div class="container-fluid" style="margin:100px auto;">
 
   <h1 class="text-center">Other Demos</h1>
-
   
-
-  <div class="grid-container2"></div>
+  <h1>MERN</h1>
   <div class="react-container mt-2"></div>
 
 </div>
@@ -92,35 +90,6 @@ function myFunction(x) {
 
     const api2 = 'data.json';
 
-var container2 = document.querySelector('.grid-container2');
-
-function display(url){
-
-fetch(url).then(res => res.json()).then(data => {
-container2.innerHTML = "";
-
-if(data.demos){
- data.demos.forEach(item => {
-
- var card = `
-
- <div class="p-2 text-center card">
-
-   <h4 class="text-dark">${item.title}</h4>
-   <img src="${item.images}">
-   <a class="text-dark h5" href="https://${item.viewpage}">Viewpage</a>
-
- </div>
-
-
- `
- 
- container2.innerHTML += card;
- })
- }
- })
- }
-display(api2)
 
 var reactcontainer = document.querySelector('.react-container');
 
@@ -151,27 +120,6 @@ if(data.ReactDemos){
  })
  }
 displayReact(api2)
-
-function check()
-{
-    var checkbox = document.getElementById("checkbox");
-    var JS = document.querySelector(".grid-container2");
-    var React = document.querySelector(".react-container");
-
-        if (checkbox.checked == true)
-        {
-            React.style.display = "grid";
-            JS.style.display = "none";
-        }
-        else if (checkbox.checked == false)
-        {
-            React.style.display = "none";
-            JS.style.display = "grid";
-        }
-
-}   
-//Pricing change check
-check(); 
 
 var sun = document.querySelector('.theme');
 
