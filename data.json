@@ -143,6 +143,11 @@
  "title":"Aquarium-shop-clone",
         "images":"./images/aquarium-clone-shop.png",
         "viewpage":"aquarium-shop.onrender.com"  
+ },
+ {
+ "title":"Hotel-Booking",
+   "images":"./images/hotel-booking.png",
+  "viewpage": "hotel-booking-jphy.onrender.com"
  }
 ]
 
