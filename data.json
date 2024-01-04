@@ -132,12 +132,12 @@
   {
   "title": "Expenses Chart",
    "images": "./images/expenses.png",
-   "viewpage":"react-expenses-chart.netlify.app/"
+   "viewpage":"react-expenses-chart.netlify.app"
   },
   {
  "title": "Countries",
    "images":"./images/countries-rest.png",
-   "viewpage":"countries-list-rest-api.netlify.app/"
+   "viewpage":"countries-list-rest-api.netlify.app"
   }
    ],
 
