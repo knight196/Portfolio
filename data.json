@@ -1,33 +1,10 @@
- {"Portfolio":  [ {
-        "title":"Four Card",
-        "images":"./images/Fourcard.PNG",
-        "viewpage":"knight196.github.io/fourcard/"
-    },
-    {
-        "title":"Sign In",
-        "images":"./images/Sign in.PNG",
-        "viewpage":"knight196.github.io/signin/"
-    },
-    {
-        "title":"Testimonial",
-        "images":"./images/Testimonial.PNG",
-        "viewpage":"knight196.github.io/testimonialslider/"
-    },
+ {"Portfolio":  [ 
     {
         "title":"Pricing Table",
         "images":"./images/Pricing.PNG",
         "viewpage":"knight196.github.io/pricingtable/"
     },
-                                             {
-        "title":"Grid-Testimonial",
-        "images":"./images/grid-testimonial.png",
-        "viewpage":"knight196.github.io/grid-testimonial/"
-    },
-                   {
-        "title":"Room Homepage",
-        "images":"./images/Room homepage.PNG",
-        "viewpage":"knight196.github.io/RoomHomepage/"
-    },
+             
     {
         "title":"Clipboard",
         "images":"./images/Clipboard.PNG",
@@ -63,11 +40,7 @@
         "images":"./images/timetracking.PNG",
         "viewpage":"knight196.github.io/Time-tracking-/"
     },
-    {
-        "title":"Flyo Storage",
-        "images":"./images/fylostorage.PNG",
-        "viewpage":"knight196.github.io/fylostorage/"
-    },
+    
     {
         "title":"Insure Landing",
         "images":"./images/insure.PNG",
