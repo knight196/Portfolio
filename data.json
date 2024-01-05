@@ -1,117 +1,148 @@
- {"Portfolio":  [ 
+ {
+
+"Junior":[
     {
         "title":"Pricing Table",
         "images":"./images/Pricing.PNG",
-        "viewpage":"knight196.github.io/pricingtable/"
+        "viewpage":"knight196.github.io/pricingtable/",
+        "level": "Junior"
     },
              
     {
         "title":"Clipboard",
         "images":"./images/Clipboard.PNG",
-        "viewpage":"knight196.github.io/clipboard/"
+        "viewpage":"knight196.github.io/clipboard/",
+        "level": "Junior"
     },
     {
         "title":"Huddle Curve",
         "images":"./images/Huddle Curve.PNG",
-        "viewpage":"knight196.github.io/huddlecurve/"
-    },
-    {
-        "title":"Room Homepage",
-        "images":"./images/Room homepage.PNG",
-        "viewpage":"knight196.github.io/roomhomepage/"
-    },
-    {
-        "title":"Easy Bank Landing",
-        "images":"./images/Easy Bank.PNG",
-        "viewpage":"knight196.github.io/Easy-landingPage/"
-    },
-    {
-        "title":"Manage Landing",
-        "images":"./images/Manage.PNG",
-        "viewpage":"knight196.github.io/Managelandingpage/"
-    },
-    {
-        "title":"BookMark Landing",
-        "images":"./images/Bookmark.PNG",
-        "viewpage":"knight196.github.io/bookmarklanding/"
+        "viewpage":"knight196.github.io/huddlecurve/",
+        "level": "Junior"
     },
     {
         "title":"Time Tracking",
         "images":"./images/timetracking.PNG",
-        "viewpage":"knight196.github.io/Time-tracking-/"
+        "viewpage":"knight196.github.io/Time-tracking-/",
+        "level": "Junior"
     },
     
     {
         "title":"Insure Landing",
         "images":"./images/insure.PNG",
-        "viewpage":"knight196.github.io/Insurelanding/"
+        "viewpage":"knight196.github.io/Insurelanding/",
+        "level": "Junior"
     },
     {
         "title":"Fylo Dark Theme",
         "images":"./images/fylodarktheme.PNG",
-        "viewpage":"knight196.github.io/fylodarktheme/"
-    },
-    {
-        "title":"Chat App",
-        "images":"./images/chatapp.PNG",
-        "viewpage":"knight196.github.io/chatapp/"
+        "viewpage":"knight196.github.io/fylodarktheme/",
+        "level": "Junior"
     },
     {
         "title":"Loops Studio",
         "images":"./images/loops.PNG",
-        "viewpage":"knight196.github.io/loopsstudio/"
+        "viewpage":"knight196.github.io/loopsstudio/",
+        "level": "Junior"
     },
     {
         "title":"Pricing Slider",
         "images":"./images/pricingslider.PNG",
-        "viewpage":"knight196.github.io/pricingslider/"
+        "viewpage":"knight196.github.io/pricingslider/",
+        "level": "Junior"
     },
     {
         "title":"Crowd Funding",
         "images":"./images/crowdfunding.PNG",
-        "viewpage":"knight196.github.io/Crowdfunding/"
+        "viewpage":"knight196.github.io/Crowdfunding/",
+        "level": "Junior"
     },
     {
         "title":"Blogr",
         "images":"./images/Blogr.PNG",
-        "viewpage":"knight196.github.io/Blogr/"
+        "viewpage":"knight196.github.io/Blogr/",
+        "level": "Junior"
     },
     {
         "title":"Sunny Agency",
         "images":"./images/sunnyagency.PNG",
-        "viewpage":"knight196.github.io/sunnyagency/"
-    },
-    {
-        "title":"E-commerce product",
-        "images":"./images/e-commerce.PNG",
-        "viewpage":"knight196.github.io/e-commerceproduct/"
-    },
-    {
-        "title":"Space",
-        "images":"./images/space.PNG",
-        "viewpage":"knight196.github.io/space/"
-    },
-    {
-        "title":"Job-Filtering",
-        "images":"./images/job-filtering.png",
-        "viewpage":"react-job-filtering-site.netlify.app"
+        "viewpage":"knight196.github.io/sunnyagency/",
+        "level": "Junior"
     },
 
   {
   "title":"Tip-Calculator",
    "images": "./images/tipimg.PNG",
-   "viewpage": "knight196.github.io/Tip-calculator/"
+   "viewpage": "knight196.github.io/Tip-calculator/",
+   "level": "Junior"
   },
   {
   "title": "Expenses Chart",
    "images": "./images/expenses.png",
-   "viewpage":"react-expenses-chart.netlify.app"
-  },
-  {
- "title": "Countries",
-   "images":"./images/countries-rest.png",
-   "viewpage":"countries-list-rest-api.netlify.app"
+   "viewpage":"react-expenses-chart.netlify.app",
+   "level": "Junior"
   }
+],
+
+"Intermediate":[
+    {
+        "title":"E-commerce product",
+        "images":"./images/e-commerce.PNG",
+        "viewpage":"knight196.github.io/e-commerceproduct/",
+        "Level": "Intermediate"
+    },
+    {
+        "title":"Space",
+        "images":"./images/space.PNG",
+        "viewpage":"knight196.github.io/space/",
+        "level": "Intermediate"
+    },
+    {
+        "title":"Job-Filtering",
+        "images":"./images/job-filtering.png",
+        "viewpage":"react-job-filtering-site.netlify.app",
+        "Level": "Intermediate"
+    },
+    {
+        "title":"Chat App",
+        "images":"./images/chatapp.PNG",
+        "viewpage":"knight196.github.io/chatapp/",
+        "level": "Intermediate"
+    },  
+    {
+        "title":"Room Homepage",
+        "images":"./images/Room homepage.PNG",
+        "viewpage":"knight196.github.io/roomhomepage/",
+        "level": "Intermediate"
+    },
+    {
+        "title":"Easy Bank Landing",
+        "images":"./images/Easy Bank.PNG",
+        "viewpage":"knight196.github.io/Easy-landingPage/",
+        "level": "Intermediate"
+    },
+    {
+        "title":"Manage Landing",
+        "images":"./images/Manage.PNG",
+        "viewpage":"knight196.github.io/Managelandingpage/",
+        "level": "Intermediate"
+    },
+    {
+        "title":"BookMark Landing",
+        "images":"./images/Bookmark.PNG",
+        "viewpage":"knight196.github.io/bookmarklanding/",
+        "level": "Intermediate"
+    }
+],
+
+"Advanced":[
+    {
+    "title": "Countries",
+     "images":"./images/countries-rest.png",
+     "viewpage":"countries-list-rest-api.netlify.app",
+     "level": "Advanced"
+    }
+    
    ],
 
 "ReactDemos":[

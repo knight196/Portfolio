@@ -61,10 +61,27 @@
             then you can click on this link <a class="text-dark" href="https://www.frontendmentor.io/">Front-End-Mentor.</a>
         </p>
 
-        <div class="grid-container">
-            
+        <!-- <div class="grid-container"></div> -->
+        
+      </div>
+      
+      <div class="tab">
+        <button class="tablinks btn" id="defaultOpen" onclick="Level(event, 'Junior')">Junior</button>
+        <button class="tablinks btn" onclick="Level(event, 'Intermediate')">Intermediate</button>
+        <button class="tablinks btn" onclick="Level(event, 'Advanced')">Advanced</button>
+      </div>
+      
+      <!-- Tab content -->
+      <div id="Junior" class="tabcontent ">
+        <div class="grid-container Junior"></div>
         </div>
-
+        
+        <div id="Intermediate" class="tabcontent">
+         <div class="grid-container Intermediate"></div>
+        </div>
+        
+        <div id="Advanced" class="tabcontent">
+         <div class="grid-container Advanced"></div>
         </div>
 
 
@@ -92,15 +109,40 @@
 
 const api ="data.json";
 
-var container1 = document.querySelector('.grid-container');
 
-function display(url){
+function Level(evt, Difficulty) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(Difficulty).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+
+document.getElementById("defaultOpen").click();
+
+
+var Junior = document.querySelector('.Junior');
+
+function JuniorLevel(url){
 
 fetch(url).then(res => res.json()).then(data => {
-    container1.innerHTML = "";
+    Junior.innerHTML = "";
 
-    if(data.Portfolio){
-        data.Portfolio.forEach(item => {
+    if(data.Junior){
+        data.Junior.forEach(item => {
 
         var card = `
 
@@ -115,13 +157,72 @@ fetch(url).then(res => res.json()).then(data => {
        
         `
         
-        container1.innerHTML += card;
+        Junior.innerHTML += card;
         })
         }
         })
         }
-       display(api)
+       JuniorLevel(api)
 
+var Intermediate = document.querySelector('.Intermediate');
+
+function IntermediateLevel(url){
+
+fetch(url).then(res => res.json()).then(data => {
+    Intermediate.innerHTML = "";
+
+    if(data.Intermediate){
+        data.Intermediate.forEach(item => {
+
+        var card = `
+
+        <div class="p-2">
+
+        <h1>${item.title}</h1>
+        <img src="${item.images}"/>
+
+        <a href="https://${item.viewpage}">ViewPage</a>
+
+        </div>
+       
+        `
+        
+        Intermediate.innerHTML += card;
+        })
+        }
+        })
+        }
+       IntermediateLevel(api)
+
+var Advanced = document.querySelector('.Advanced');
+
+function AdvancedLevel(url){
+
+fetch(url).then(res => res.json()).then(data => {
+    Advanced.innerHTML = "";
+
+    if(data.Advanced){
+        data.Advanced.forEach(item => {
+
+        var card = `
+
+        <div class="p-2">
+
+        <h1>${item.title}</h1>
+        <img src="${item.images}"/>
+
+        <a href="https://${item.viewpage}">ViewPage</a>
+
+        </div>
+       
+        `
+        
+        Advanced.innerHTML += card;
+        })
+        }
+        })
+        }
+       AdvancedLevel(api)
 
   </script>
 

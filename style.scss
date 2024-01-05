@@ -332,6 +332,18 @@ $text-length: 16;
  .slider.round::before{
    border-radius: 50%;
  }
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+} 
+
  /*End of toggle Style*/
 
       @include for-size(tablet){
