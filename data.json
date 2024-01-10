@@ -144,7 +144,7 @@
     },
  {
   "title": "Multi-Step-Form",
-  "images:"./images/multi-step.png",
+  "images":"./images/multi-step.png",
   "viewpage": "multi-step-form-gaming.netlify.app",
   "level":"Advanced"
  }
