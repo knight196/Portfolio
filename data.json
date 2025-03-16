@@ -167,6 +167,11 @@
  "title":"Hotel-Booking",
    "images":"./images/hotel-booking.png",
   "viewpage": "hotel-booking-sh58.onrender.com/"
+ },
+ {
+  "title":"mysql-aquarium-plant-book",
+  "images":"./images/mysql-image.png",
+  "viewpage":"mysql-7kf9.onrender.com/"
  }
 ]
 
